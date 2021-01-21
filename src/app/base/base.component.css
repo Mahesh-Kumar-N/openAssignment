@@ -1,0 +1,62 @@
+.blob-img {
+  position: absolute;
+  right: -353px;
+  top: -209px;
+  }
+  .circle{
+    width: 75%;
+    height: 75%;
+  }
+  .base-section {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .blob-img-left {
+    position: absolute;
+    top: 166px;
+    left: -150px;
+  }
+  .blob-small{
+    width: 80%;
+    height: 80%;
+  }
+
+  .border-style {
+    background: #222222;
+    width: 236px;
+    margin: 5px 60px;
+    height: 8px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    }
+  
+  .small-container {
+    width: fit-content;
+    padding: 220px 122px;
+   }
+
+  .section-header {
+    width: 70%;
+    margin: 5px 60px;
+  }
+  
+  .image-container {
+    position: relative;  
+    transform: scale(0.9);
+    width: 400px;
+  }
+  .video_img {
+    width: 100%;
+    margin-top: 80px;
+  }
+  .dots_img {
+    position: absolute;
+    bottom: -28px;
+    right: -100px;
+    z-index: -999;
+  }

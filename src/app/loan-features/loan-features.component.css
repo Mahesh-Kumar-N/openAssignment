@@ -1,0 +1,45 @@
+.wave-img {
+    width: 100%;
+    position: absolute;
+    bottom: -3%;
+    right: 0;
+    left: 0;
+    z-index: -999;
+  }
+  
+  .cards-section {
+    position: relative;
+    padding: 20px 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+
+  }
+  
+  .Acct-section {
+    width: 30%;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column; 
+
+  }
+  
+  .feature-desc {
+    font-family: "Montserrat";
+    color: #777777;
+    font-size: 17px;
+    font-weight: 100;
+
+  }
+  
+  .open-acct-btn {
+    width: 279px;
+    height: 58px;
+    font-size: 15px;
+    font-family: 'Montserrat-Medium';
+    color: #663399;
+    border: 2px solid #663399;
+    background: transparent;
+    margin-top: 70px;
+  }
+  

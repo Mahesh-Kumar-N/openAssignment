@@ -1,0 +1,39 @@
+<div  class="calculator-container">
+  <div  class="eligibility-container">
+    <h3 class="eligibility_label"> Eligibility Calculator </h3>
+    <form  class="form">
+        <app-range-slider [min]="100000" [max]="300000" [label]="'Monthly Income'" [showrange]="true"></app-range-slider>
+        <app-range-slider [min]="10000" [max]="100000" [label]="'Monthly Expense'"></app-range-slider>      <div>
+        <label  for="duration">Repayment Tenure</label>
+        <div  class="input-container">
+          <select  name="duration" id="duration">
+            <option  value="3" >3 Months</option>
+            <option  value="6" selected="" >6 Months</option>
+            <option  value="9" >9 Months</option>
+          </select>
+        </div>
+      </div>
+      <div  class="form-field">
+        <label >Do you have any existing loans?</label>
+        <span >
+          <label class="switch">
+            <input type="checkbox" class="switch_input" checked="">
+            <span  class="toggle-switch"></span>
+          </label></span>
+      </div>
+      <div>
+        <label  for="emi">EMI of existing loan (optional) </label>
+        <div  class="input-container">
+          <input type="text" id="emi" class="input" placeholder="₹ 15000">
+        </div>
+      </div>
+    </form>
+  </div>
+  <div  class="loan-details">
+    <label class="loan_label" >Loan Amount</label>
+    <span class="loan_value">₹ 1,00,000</span>
+    <label class="loan_label">Your EMI will be</label>
+    <span class="loan_value">₹ 15,000</span>    
+      <button  type="button" class="btn btn-money">Get Money</button>
+  </div><img  src="./../../../assets/images/accounting_dots.svg" alt="dots" class="accounting_dots">
+</div>

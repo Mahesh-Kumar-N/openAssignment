@@ -1,0 +1,11 @@
+<label for="range-slider"  class="range-header">{{label}}</label>
+<div>
+  <h1 class="range-value">₹ {{value}}</h1>
+  <div class="slider">
+    <input class="range-slider" id="range-slider" type="range" [min]="min" [max]="max" (input)="showVal($event)">
+    <div *ngIf="showrange" class="range-container" >
+      <span>₹ {{minValue}}</span>
+      <span>₹ {{maxValue}}</span>
+    </div>
+  </div>
+</div>
